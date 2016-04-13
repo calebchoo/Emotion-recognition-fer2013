@@ -14,8 +14,8 @@ DATA SET:
 
 - Put the testing data set (3,589 images) in: `/tmp/fer2013_data/fer2013-batches-bin/test_batch.bin`
 
-HOW TO RUN:
------------
+HOW TO TRAIN:
+-------------
 - Install `TensorFlow`: https://www.tensorflow.org/versions/r0.7/get_started/os_setup.html#pip-installation
 - Run `python fer2013_train.py`
 - Run `python fer2013_eval.py` on fer2013.bin data (Training Precision)
@@ -38,6 +38,10 @@ STATS DASHBOARD:
 - Run `tensorboard --logdir "/tmp"`
 - Go to `http://0.0.0.0:6006/`
 - This displays `events`, `images`, `graphs` and `histograms` for the train and eval runs on the model.
+
+SCREENSHOTS:
+------------
+- https://goo.gl/rJfjYL
 
 REFERENCES:
 -----------
